@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TerBat</string>
+    <string name="TitleMenu">confirm New Game</string>
+    <string name="TitleMenu1">confirm exit</string>
+    <string name="MenuError">Error</string>
+    <string name="MessageMenu">Are you sure want to start new game?</string>
+    <string name="MessageMenu1">Are you sure want to exit?</string>
+    <string name="Button1Menu">Yes</string>
+    <string name="Button2Menu">No</string>
+    <string name="TextTRY">Figushca)</string>
+    <string name="title_activity_aftergame">aftergameActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

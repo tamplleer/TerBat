@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context="com.tamplleer.terbat.MainActivity">
+
+    <Button
+        android:text="Continue"
+        android:onClick="onContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Exit"
+        android:onClick="onExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="New Game"
+        android:onClick="onStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+
+        android:onClick="onSettings" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:onClick="onRecord"
+        android:text="Records" />
+</RelativeLayout>
